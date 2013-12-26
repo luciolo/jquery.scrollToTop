@@ -1,0 +1,40 @@
+#totopscroller {
+	position: fixed;
+	right: 40px;
+	bottom: 60px;
+	width: 40px;
+}
+
+#totopscroller i{
+	cursor:pointer;
+	color: #ccc;
+	width:33px;
+	text-align: center;
+	border-radius: 0;
+	background: #fff;
+}
+
+#totopscroller i:hover{
+	cursor:pointer;
+	color: #aaa;
+	border-color: #aaa;
+}
+#totopscroller div{
+	position: relative;
+}
+
+.totopscroller-lnk i {
+	font-weight: bold !important;
+}
+
+.totopscroller-prev {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.totopscroller-bottom {
+	position: absolute;
+	top: 0;
+	left: 0;
+}

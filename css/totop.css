@@ -1,0 +1,45 @@
+#totopscroller {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 43px;
+}
+#totopscroller div{
+	width: 49px;
+	height: 43px;
+	position: relative;
+}
+
+#totopscroller a {
+	display:none;
+	background: url('totopicons.png');
+	width: 49px;
+	height: 43px;
+	display:block;
+	text-decoration: none;
+	border: medium none;
+	margin: 0 0 -1px;
+	border: 1px solid #949494;
+}
+
+.totopscroller-top {
+	background-position: 0 0 !important;
+}
+
+.totopscroller-lnk {
+	background-position: 0 -43px !important;
+}
+
+.totopscroller-prev {
+	background-position: 0 -129px !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.totopscroller-bottom {
+	background-position: 0 -86px !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
