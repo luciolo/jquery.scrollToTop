@@ -1,3 +1,8 @@
+/*!
+ jQuery scrollTopTop v1.0 - 2014-01-29
+ (c) 2014 Alexandr Bannov <kokudzin@gmail.com>
+ license: http://www.opensource.org/licenses/mit-license.php
+ */
 (function ( $ ) {
 	$.fn.totopscroller = function(options) {
 		
@@ -13,7 +18,7 @@
 			toTopClass: 'totopscroller-top',
 			toBottomClass: 'totopscroller-bottom',
 			toPrevClass: 'totopscroller-prev',
-			linkClass: 'totopscroller-lnk',
+			linkClass: 'totopscroller-lnk'
         };
 
 		var settings = $.extend({}, defaults, options);
@@ -72,7 +77,7 @@
 			{
 				b_bottom.click(function(e) {
 					e.preventDefault();
-					lastposition = 0
+					lastposition = 0;
 					$('html, body').animate({scrollTop:$(document).height()}, 
 					{
 						duration: 'slow', 
@@ -90,7 +95,7 @@
 					{
 						duration: 'slow', 
 						complete: function () {
-							lastposition = 0
+							lastposition = 0;
 							refresh();
 						}
 					});
